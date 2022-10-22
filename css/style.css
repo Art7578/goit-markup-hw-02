@@ -1,22 +1,30 @@
-.body{
-    font-family: Roboto;
+body{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #757575;
+    background-color: #FFFFFF;
+    letter-spacing: 0,03em;
 }
 .list{
     list-style: none;
 }
-/* header */
-.header{
-    background-color: #FFFFFF;
+.link{
+    text-decoration: none;
 }
+.list .link.current{
+    color: #2196F3;
+}
+/* header */
 .web{
     color: #2196F3;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
 }
 .studio-link{
     color: #000000;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 26px;
-    line-height: 0.83;
+    line-height: 1.19;
     text-decoration: none;
 }
 .studio-link:active{
@@ -25,168 +33,151 @@
 .nav{
     color: #212121;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 0.87;
-    list-style: none;
-    text-decoration: none;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .nav:active,
-.nav:hover{
+.nav:hover,
+.nav:focus{
     color: #2196F3;
 }
-.nav2{
+.nav:current(){
+    color: #2196F3;
+}
+.nav-second{
     color: #757575;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 0.87;
-    list-style: none;
-    text-decoration: none;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
-.nav2:hover,
-.nav2:focus{
+.nav-second:hover,
+.nav-second:focus{
     color: #2196F3;
 }
 /* main */
 /* section1 */
-.section1{
+.section-one{
     background-color: #2F303A;
 }
-.decisions{
+.title{
     color: #FFFFFF;
     font-weight: 900;
     font-size: 44px;
-    line-height: 0.73;
+    line-height: 1.36;
     text-align: center;
+    letter-spacing: 0.06em;
 }
 .button{
     color: #FFFFFF;
     background-color: #2196F3;
     font-weight: 700;
     font-size: 16px;
-    line-height: 0.53;
+    line-height: 1.87;
     text-align: center;
     cursor: pointer;
+    letter-spacing: 0.06em;
+    border-style: none;
 }
 /* section2 */
-.section2{
-    background-color: #FFFFFF;
-}
 .feature{
     color: #212121;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 0.87;
+    line-height: 1.14;
     list-style: none;
 }
 .feature-text{
-    color: #757575;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 0.58;
+    line-height: 1.71;
 }
 /* section3 */
-.section3{
-    background-color: #FFFFFF;
-}
 .duty{
     color: #212121;
     font-weight: 700;
     font-size: 36px;
-    line-height: 0.85;
+    line-height: 1.16;
     text-align: center;
+}
+/* section4 */
+.section-four{
+    background: #F5F4FA
 }
 .team{
     color: #212121;
     font-weight: 700;
     font-size: 36px;
-    line-height: 0.85;
+    line-height: 1.16;
     text-align: center
 }
 .team-card{
     color: #212121;
     font-weight: 500;
     font-size: 16px;
-    line-height: 0.84;
+    line-height: 1.18;
     text-align: center
 }
 .team-card-text{
-    color: #757575;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 0.84;
+    line-height: 1.18;
     text-align: center;
 }
 /* footer */
 .footer{
     background-color: #2F303A;
 }
-.web2{
+.web-footer{
     color: #2196F3
 }
-.studio-link2{
+.studio-link-footer{
     color: #FFFFFF;
     font-family: Raleway;
     font-size: 26px;
-    line-height: 0.83;
-    text-decoration: none;
+    line-height: 1.19;
 }
 .studio-link:active{
     color: #2196F3
 }
 .town{
     color: #FFFFFF;
-    font-weight: 400;
     font-style: normal;
-    font-size: 14px;
-    line-height: 0.58;
-    list-style: none;
-    text-decoration: none;
+    line-height: 1.71;
 }
 .town:hover,
 .town:focus{
     color: #2196F3;
     
 }
-.nav3{
+.nav-third{
     color: #FFFFFFa5;
-    font-weight: 400;
     font-style: normal;
-    font-size: 14px;
-    line-height: 0.58;
-    list-style: none;
-    text-decoration: none;
+    line-height: 1.171;
 }
-.nav3:hover,
-.nav3:focus{
+.nav-third:hover,
+.nav-third:focus{
     color: #2196F3;
 }
 /* section5 */
-.section5{
-    background-color: #FFFFFF;
-}
-.button2{
+.button-list{
     color: #212121;
     background-color: #F5F4FA;
     font-weight: 500;
     font-size: 16px;
-    line-height: 0.61;
+    line-height: 1.62;
     text-align: center;
     cursor: pointer;
+    border-style: none;
 }
 .project{
     color: #212121;
     font-weight: 700;
     font-size: 18px;
-    line-height: 0.5;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
 .project-text{
-    color: #757575;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 0.53;
+    line-height: 1.87;
 }
-.button2:hover,
-.button2:focus{
+.button-list:hover,
+.button-list:focus{
     color: #FFFFFF;
     background-color: #2196F3;
 }
