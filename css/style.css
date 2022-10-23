@@ -1,10 +1,12 @@
+:root{
+    --primary-color:#757575;
+}
 body{
     font-family: Roboto, sans-serif;
-    font-weight: 400;
     font-size: 14px;
-    color: #757575;
+    color: var(--primary-color);
     background-color: #FFFFFF;
-    letter-spacing: 0,03em;
+    letter-spacing: 0.03em;
 }
 .list{
     list-style: none;
@@ -66,10 +68,12 @@ body{
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 .button{
     color: #FFFFFF;
     background-color: #2196F3;
+    font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -81,7 +85,7 @@ body{
 /* section2 */
 .feature{
     color: #212121;
-    font-weight: 700;
+    font-size: 14px;
     line-height: 1.14;
     list-style: none;
 }
@@ -109,7 +113,6 @@ body{
 }
 .team-card{
     color: #212121;
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     text-align: center
@@ -148,7 +151,7 @@ body{
 .nav-third{
     color: #FFFFFFa5;
     font-style: normal;
-    line-height: 1.171;
+    line-height: 1.71;
 }
 .nav-third:hover,
 .nav-third:focus{
@@ -158,6 +161,7 @@ body{
 .button-list{
     color: #212121;
     background-color: #F5F4FA;
+    font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -167,7 +171,6 @@ body{
 }
 .project{
     color: #212121;
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
